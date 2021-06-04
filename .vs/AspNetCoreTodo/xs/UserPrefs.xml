@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{46DDAAD8-ACA8-450F-B8BF-2759BD080D85}|Default">
+  <MonoDevelop.Ide.ItemProperties.AspNetCoreTodo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Migrations/20210516115631_AddItemUserId.cs">
+    <Files>
+      <File FileName="Data/Migrations/20210516115631_AddItemUserId.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Data/Migrations/ApplicationDbContextModelSnapshot.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Data/Migrations/20210423204619_AddItems.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AspNetCoreTodo" expanded="True">
+            <Node name="AspNetCoreTodo" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True">
+                  <Node name="20210516115631_AddItemUserId.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
