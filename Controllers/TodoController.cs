@@ -7,6 +7,8 @@ using AspNetCoreTodo.Services;
 using AspNetCoreTodo.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using AspNetCoreTodo.Data;
+
 
 namespace AspNetCoreTodo.Controllers
 {
@@ -14,8 +16,8 @@ namespace AspNetCoreTodo.Controllers
      public class TodoController : Controller
      {
         private readonly ITodoItemService _todoItemService;
-        private readonly UserManager<ApplicationUser> _userManager;
-        public TodoController (ITodoItemService todoItemService, UserManager<ApplicationUser> userManager)
+        private readonly UserManager<IdentityUser> _userManager;
+        public TodoController (ITodoItemService todoItemService, UserManager<IdentityUser> userManager)
         {
            _todoItemService = todoItemService;
            _userManager = userManager;
@@ -35,7 +37,8 @@ namespace AspNetCoreTodo.Controllers
         }
 
 
-          [ValidateAntiForgeryToken]
+          
+      [ValidateAntiForgeryToken]
      public async Task<IActionResult> AddItem(TodoItem newItem)
      {
         if (!ModelState.IsValid)

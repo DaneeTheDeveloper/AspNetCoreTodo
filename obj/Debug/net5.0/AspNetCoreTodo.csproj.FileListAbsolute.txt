@@ -1,7 +1,6 @@
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/appsettings.Development.json
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/appsettings.json
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/AspNetCoreTodo.StaticWebAssets.xml
-/Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/app.db
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/AspNetCoreTodo.deps.json
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/AspNetCoreTodo.runtimeconfig.json
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/AspNetCoreTodo.runtimeconfig.dev.json
@@ -125,3 +124,4 @@
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/obj/Debug/net5.0/ref/AspNetCoreTodo.dll
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/obj/Debug/net5.0/AspNetCoreTodo.pdb
 /Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/obj/Debug/net5.0/AspNetCoreTodo.genruntimeconfig.cache
+/Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/bin/Debug/net5.0/app.db

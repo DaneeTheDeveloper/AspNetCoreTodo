@@ -15644,6 +15644,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/Views/Shared/_AdminActionsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_AdminActionsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/elahnharris/Projects/AspNetCoreTodo/AspNetCoreTodo/Views/ManageUsers/Index.cshtml",
       "TargetPath": "Views\\ManageUsers\\Index.cshtml",
       "FileKind": "mvc"

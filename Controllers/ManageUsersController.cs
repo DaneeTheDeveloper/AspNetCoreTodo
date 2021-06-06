@@ -6,16 +6,18 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using AspNetCoreTodo.Models;
 using Microsoft.EntityFrameworkCore;
+using AspNetCoreTodo.Data;
+
 
 namespace AspNetCoreTodo.Controllers
 {
     [Authorize(Roles = "Administrator")]
     public class ManageUsersController : Controller
     {
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<IdentityUser> _userManager;
 
         public ManageUsersController(
-            UserManager<ApplicationUser> userManager)
+            UserManager<IdentityUser> userManager)
             {
                 _userManager = userManager;
             }
